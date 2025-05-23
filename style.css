@@ -1,0 +1,51 @@
+*{
+  margin: 0px;
+  padding:0px;
+  text-decoration: none;
+}
+header{
+  background-color: gray;
+  color:white;
+  padding:1rem 2rem;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav ul li a{
+  color:white;
+  text-decoration: none;
+}
+
+section{
+  padding: 2rem;
+}
+#hero{
+  background: #e2e2e2;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+.project{
+  background: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+footer{
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color:white;
+}
+img{
+  border-radius: 100px;
+  padding: 1rem;
+  width: 100px;
+}
