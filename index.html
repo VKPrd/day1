@@ -23,7 +23,6 @@
                 </ul>
             </nav>
         </header>
-
         <section id="hero">
             <img src="vivek clg.jpg" alt="Photo" />
 
@@ -61,9 +60,7 @@
             </p>
         </section>
         <!-- //////// SKILLS     ///////////////////////////////////////////////////////////////////////////////////// -->
-
-        <hr>
-
+        <!-- <hr> -->
         <section id="skills">
             <h2>Skills</h2>
             <li>HTML</li>
@@ -99,7 +96,11 @@
                     GitHub for reference and further development.
                 </p>
                 <br>
-                <a href="GitHub Link: https://github.com/VKPrd" target="_blank">View on GitHub</a>
+                <b>
+                    <p>Other Project:</p>
+                </b>
+                <br>
+                <a href="https://github.com/VKPrd" target="_blank">View on GitHub</a>
             </div>
             <!-- Add more projects similarly -->
         </section>
@@ -137,44 +138,66 @@
 
         <button><a href="Vivek_Kumar_Resume.pdf" target="_blank" download>Resume
                 Download</a></button>
-        <hr>
+        <!-- <hr> -->
 
         <section id="contact">
             <h2>Contact Me</h2>
-            <p>
-                Thank you for visiting my portfolio! I’m always open to discussing new opportunities, collaborations,
-                freelance
-                work, or simply connecting with like-minded individuals in the tech community. Whether you have a
-                project idea,
-                want to work together, or just wish to say hello — feel free to reach out!
+            <div class="details">
 
-                You can contact me via email or phone, and I’ll respond as soon as possible. I am available for both
-                remote and
-                on-site opportunities and always excited to explore innovative projects.
-                <br>
-                <add>
-                    📞 Phone: +91 7368906091
-                    <br>
-                    📧<a href="mailto:vk0220cs191@gmail.com" target="_blank">Email: VK0220CS191@gmail.com</a>
-                    <br>
-                    🌐 <a href="https://github.com/VKPrd" target="_blank">GitHub: https://github.com/VKPrd</a>
-                    <br>
-                    📍 Location: Madhubani, Bihar, India
-                    <br>
-            <p>LinkedIn: <a href="#">yourprofile</a></p>
-            <p>Telegram: <a href="#">yourprofile</a></p>
-            </p>
-            </add>
+                <div class="content">
+                    <p>
+                        Thank you for visiting my portfolio! I’m always open to discussing new opportunities,
+                        collaborations,
+                        freelance
+                        work, or simply connecting with like-minded individuals in the tech community. Whether you have
+                        a
+                        project idea,
+                        want to work together, or just wish to say hello — feel free to reach out!
+
+                        You can contact me via email or phone, and I’ll respond as soon as possible. I am available for
+                        both
+                        remote and
+                        on-site opportunities and always excited to explore innovative projects.
+                    </p><br><br>
+                    <address>
+                        📞 Phone: +91 7368906091
+                        <br><br>
+                        📧 <a href="mailto:vk0220cs191@gmail.com" target="_blank">Email: VK0220CS191@gmail.com</a>
+
+                        <br><br>
+                        📍 Location: Madhubani, Bihar, India
+                        <br><br>
+                        <a href="https://www.linkedin.com/in/vivek-kumar-856b9024b/" target="_blank"><img
+                                src="linkedin.png" alt="linkedin"> </a>
+                        <a href="https://www.instagram.com/vivekg22922?igsh=Z29yeWdxdnFteTRq" target="_blank"><img
+                                src="instagram.png" alt="instagram"> </a>
+                        <a href="https://t.me/+Cd45EBMAuRE5YmE1" target="_blank"><img src="telegram.png" alt="telegram">
+                        </a>
+                        <a href="https://github.com/VKPrd" target="_blank"><img src="github.png" alt="github"> </a>
+                    </address>
+                </div>
+
+                <div class="form">
+                    <form onsubmit="sendToWhatsApp(); return false;">
+
+                        <label for="name">Enter Name:</label>
+                        <input type="text" id="name" placeholder="Eg: Ganesh kumar" required><br>
+
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" placeholder="abc@gmail.com" required><br>
+
+                        <label for="message">Message</label>
+                        <textarea id="message:" rows="4" placeholder="Type your message"></textarea>
+                        <button type="submit">Send to WhatsApp</button>
+                    </form>
+                </div>
+            </div>
         </section>
-
         <footer>
-            
             <p>&copy 2025 vivek kumar</p>
-
         </footer>
     </center>
-    <script src="script.js">
-    </script>
+    <script src="style.js"> </script>
 </body>
 
 </html>

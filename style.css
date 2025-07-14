@@ -21,7 +21,9 @@ header {
   background: #cecdcd;
 
   color: white;
-  padding: 1rem 2rem;
+  padding: 2rem;
+  position:fixed;
+  width: 96%;
 }
 
 nav {
@@ -46,7 +48,6 @@ nav ul li a:hover {
 }
 
 
-
 section {
   padding: 2rem;
 }
@@ -60,16 +61,19 @@ section {
   background: #e2e2e2;
   text-align: center;
   padding: 4rem 2rem;
+  
+}
+#hero img{
+  margin-top:4rem ;
 }
 
 #about {
   text-align: left;
   background: #cecdcd;
-
-
-
 }
-
+#skills{
+  width:75%
+}
 #skill h2 {
   margin: 2rem;
 }
@@ -118,23 +122,66 @@ button {
   margin: 2rem;
   font-size: medium;
   font-weight: 700;
+  color: white;
 }
 
 button:hover {
   background-color: orange;
+  /* color: white; */
 }
 
 #contact {
   text-align: left;
   background: #cecdcd;
+  /* display: flex; */
+}
+#contact .details{
+  /* width:500px; */
+  display: flex;
+  justify-content: space-around;
 
 }
-
+/* #contact .details p{
+  width: 75%;
+} */
+/* #contact .details .content p{
+  width: 50%;
+} */
+#contact .content{
+  /* background-color: #a19797; */
+  width: 65%;
+}
 #contact h2 {
   text-align: center;
 
 }
+#contact address a img{
+  width: 30px;
+  align-items: center;
+}
+#contact form{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  background-color: #458cca;
+  padding: 2rem;
+  border-radius: 5px;
+}
+.form button{
+  color: white;
+  background-color:#25D366;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
+input{
+  margin: 7px;
+  padding: 2px;
+  width: 90%;
+  color:brown;
+  border-radius: 4px;
+}
 @media (min-width:500)and
 (max-width:1024px) {
 
@@ -155,3 +202,12 @@ button:hover {
   }
 
 }
+  @media (max-width: 600px) {
+      .form-container {
+        padding: 15px;
+      }
+
+      input, textarea, button {
+        font-size: 14px;
+      }
+    }
